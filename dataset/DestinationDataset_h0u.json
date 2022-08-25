@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "220825-basic",
+				"fileName": "220825-basic.json",
 				"fileSystem": "dhis-test"
 			}
 		},
