@@ -1,0 +1,15 @@
+{
+	"name": "SourceDataset_h0u",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "new_dhis",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": "29/analytics/dataValueSet.json?dimension=dx:D9A0afrTYPw&dimension=pe:LAST_12_MONTHS&dimension=ou:akV6429SUqu&displayProperty=NAME",
+			"requestMethod": "GET"
+		}
+	}
+}
