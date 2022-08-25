@@ -1,0 +1,19 @@
+{
+	"name": "DestinationDataset_h0u",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "220825-basic",
+				"fileSystem": "dhis-test"
+			}
+		},
+		"schema": {}
+	}
+}
