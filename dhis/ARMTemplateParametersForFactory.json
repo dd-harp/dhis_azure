@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dhis"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"new_dhis_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://ugandamalaria.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://ugandamalaria.dfs.core.windows.net/"
+		},
+		"new_dhis_properties_typeProperties_url": {
+			"value": "https://hmis.health.go.ug/api/"
+		},
+		"new_dhis_properties_typeProperties_userName": {
+			"value": "moh-nmcd.rekjohn"
+		}
+	}
+}
