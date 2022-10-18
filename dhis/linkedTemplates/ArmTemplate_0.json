@@ -111,12 +111,23 @@
 					"referenceName": "AzureDataLakeStorage1",
 					"type": "LinkedServiceReference"
 				},
+				"parameters": {
+					"FileName": {
+						"type": "string"
+					},
+					"Timestamp": {
+						"type": "string"
+					},
+					"FileExtension": {
+						"type": "string"
+					}
+				},
 				"annotations": [],
 				"type": "Json",
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"fileName": "220825-basic.json",
+						"fileName": "@concat(dataset().FileName, dataset().Timestamp, dataset().FileExtension)",
 						"fileSystem": "dhis-test"
 					}
 				},
@@ -228,7 +239,11 @@
 							{
 								"referenceName": "DestinationDataset_h0u",
 								"type": "DatasetReference",
-								"parameters": {}
+								"parameters": {
+									"FileName": "dhis",
+									"Timestamp": "@pipeline().TriggerTime",
+									"FileExtension": ".json"
+								}
 							}
 						]
 					}
