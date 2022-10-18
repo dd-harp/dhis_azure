@@ -53,7 +53,9 @@
 						"referenceName": "DestinationDataset_h0u",
 						"type": "DatasetReference",
 						"parameters": {
-							"Timestamp": "@pipeline().TriggerTime"
+							"FileName": "dhis",
+							"Timestamp": "@pipeline().TriggerTime",
+							"FileExtension": ".json"
 						}
 					}
 				]
