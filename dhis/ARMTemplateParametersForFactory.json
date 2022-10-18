@@ -5,19 +5,28 @@
 		"factoryName": {
 			"value": "dhis"
 		},
-		"AzureDataLakeStorage1_accountKey": {
+		"AzureBatch1_accessKey": {
 			"value": ""
 		},
-		"AzureDataLakeStorage2_accountKey": {
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
 			"value": ""
 		},
 		"new_dhis_password": {
 			"value": ""
 		},
-		"AzureDataLakeStorage1_properties_typeProperties_url": {
-			"value": "https://ugandamalaria.dfs.core.windows.net/"
+		"AzureBatch1_properties_typeProperties_batchUri": {
+			"value": "https://dhis.westus.batch.azure.com"
 		},
-		"AzureDataLakeStorage2_properties_typeProperties_url": {
+		"AzureBatch1_properties_typeProperties_poolName": {
+			"value": "001"
+		},
+		"AzureBatch1_properties_typeProperties_accountName": {
+			"value": "dhis"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://ugandamalaria.dfs.core.windows.net/"
 		},
 		"new_dhis_properties_typeProperties_url": {
