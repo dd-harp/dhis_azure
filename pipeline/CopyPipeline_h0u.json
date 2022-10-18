@@ -51,7 +51,10 @@
 				"outputs": [
 					{
 						"referenceName": "DestinationDataset_h0u",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"Timestamp": "@pipeline().TriggerTime"
+						}
 					}
 				]
 			}
